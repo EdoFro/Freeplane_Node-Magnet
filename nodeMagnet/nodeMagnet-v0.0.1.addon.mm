@@ -1,9 +1,9 @@
 <map version="freeplane 1.8.0">
 <!--To view this file, download free mind mapping software Freeplane from http://freeplane.sourceforge.net -->
-<node TEXT="Node Magnet" FOLDED="false" ID="ID_1094229561" CREATED="1601065780298" MODIFIED="1601219688463" LINK="https://github.com/EdoFro/Freeplane_Node-Magnet" BACKGROUND_COLOR="#97c7dc" STYLE="oval">
+<node TEXT="Node Magnet" FOLDED="false" ID="ID_1094229561" CREATED="1601065780298" MODIFIED="1601229248485" LINK="https://github.com/EdoFro/Freeplane_Node-Magnet" BACKGROUND_COLOR="#97c7dc" STYLE="oval">
 <font SIZE="16" BOLD="true" ITALIC="true"/>
 <hook NAME="MapStyle">
-    <properties fit_to_viewport="false" show_icon_for_attributes="true" show_note_icons="true" edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff"/>
+    <properties show_icon_for_attributes="true" fit_to_viewport="false" show_note_icons="true" edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff"/>
 
 <map_styles>
 <stylenode LOCALIZED_TEXT="styles.root_node" STYLE="oval" UNIFORM_SHAPE="true" VGAP_QUANTITY="24.0 pt">
@@ -107,7 +107,7 @@
   </body>
 </html>
 </richcontent>
-<node TEXT="description" POSITION="left" ID="ID_193967642" CREATED="1601065851195" MODIFIED="1601218785296">
+<node TEXT="description" POSITION="left" ID="ID_193967642" CREATED="1601065851195" MODIFIED="1601229248507">
 <edge COLOR="#ff0000"/>
 <richcontent TYPE="NOTE">
 
@@ -130,7 +130,7 @@
 </richcontent>
 <node TEXT="this addon helps to choose a node and mark it as destiny node and move all selected nodes to it at once" ID="ID_187383201" CREATED="1601123249048" MODIFIED="1601123511224"/>
 </node>
-<node TEXT="changes" POSITION="left" ID="ID_423818786" CREATED="1601065851214" MODIFIED="1601218785306">
+<node TEXT="changes" POSITION="left" ID="ID_423818786" CREATED="1601065851214" MODIFIED="1601229248518">
 <edge COLOR="#0000ff"/>
 <richcontent TYPE="NOTE">
 
@@ -146,7 +146,7 @@
 </html>
 </richcontent>
 </node>
-<node TEXT="license" POSITION="left" ID="ID_588714775" CREATED="1601065851229" MODIFIED="1601218785318">
+<node TEXT="license" POSITION="left" ID="ID_588714775" CREATED="1601065851229" MODIFIED="1601229248529">
 <edge COLOR="#00ff00"/>
 <richcontent TYPE="NOTE">
 
@@ -169,7 +169,7 @@
 </richcontent>
 <node TEXT="&#xa;This add-on is free software: you can redistribute it and/or modify&#xa;it under the terms of the GNU General Public License as published by&#xa;the Free Software Foundation, either version 2 of the License, or&#xa;(at your option) any later version.&#xa;&#xa;This program is distributed in the hope that it will be useful,&#xa;but WITHOUT ANY WARRANTY; without even the implied warranty of&#xa;MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the&#xa;GNU General Public License for more details.&#xa;" ID="ID_350487012" CREATED="1601065851245" MODIFIED="1601065851246"/>
 </node>
-<node TEXT="preferences.xml" POSITION="left" ID="ID_6162240" CREATED="1601065851264" MODIFIED="1601218785329">
+<node TEXT="preferences.xml" POSITION="left" ID="ID_6162240" CREATED="1601065851264" MODIFIED="1601229248540">
 <edge COLOR="#ff00ff"/>
 <richcontent TYPE="NOTE">
 
@@ -188,7 +188,7 @@
 </html>
 </richcontent>
 </node>
-<node TEXT="default.properties" POSITION="left" ID="ID_840785349" CREATED="1601065851278" MODIFIED="1601218785339">
+<node TEXT="default.properties" POSITION="left" ID="ID_840785349" CREATED="1601065851278" MODIFIED="1601229248550">
 <edge COLOR="#00ffff"/>
 <richcontent TYPE="NOTE">
 
@@ -212,7 +212,7 @@
 </html>
 </richcontent>
 </node>
-<node TEXT="translations" POSITION="left" ID="ID_493847199" CREATED="1601065851295" MODIFIED="1601218785350">
+<node TEXT="translations" POSITION="left" ID="ID_493847199" CREATED="1601065851295" MODIFIED="1601229248560">
 <edge COLOR="#7c0000"/>
 <richcontent TYPE="NOTE">
 
@@ -249,7 +249,7 @@
 <attribute NAME="addons.${name}.pullIncomingLocalLinks" VALUE="pull nodes linked to selected node"/>
 </node>
 </node>
-<node TEXT="deinstall" POSITION="left" ID="ID_729275475" CREATED="1601065851371" MODIFIED="1601218785362">
+<node TEXT="deinstall" POSITION="left" ID="ID_729275475" CREATED="1601065851371" MODIFIED="1601229248570">
 <edge COLOR="#00007c"/>
 <richcontent TYPE="NOTE">
 
@@ -274,7 +274,7 @@
 <attribute NAME="delete" VALUE="${installationbase}/addons/${name}/scripts/pullIncomingLocalLinks.groovy"/>
 <attribute NAME="delete" VALUE="${installationbase}/icons/magneto.svg"/>
 </node>
-<node TEXT="scripts" POSITION="right" ID="ID_272249495" CREATED="1601065851400" MODIFIED="1601218785378">
+<node TEXT="scripts" POSITION="right" ID="ID_272249495" CREATED="1601065851400" MODIFIED="1601229248583">
 <edge COLOR="#007c00"/>
 <richcontent TYPE="NOTE">
 
@@ -405,7 +405,7 @@
 <attribute NAME="execute_scripts_without_write_restriction" VALUE="false"/>
 <attribute NAME="execute_scripts_without_exec_restriction" VALUE="false"/>
 <attribute NAME="execute_scripts_without_network_restriction" VALUE="false"/>
-<node TEXT="// demagnetize any magnetized node in map&#xa;def magnetNodes = c.find{n -&gt; n[&apos;magnetized&apos;]?true:false }   // collect all magnetized nodes in map (nodes with &apos;magnetized&apos; attribute)&#xa;magnetNodes.each{n -&gt;&#xa;    n[&apos;magnetized&apos;]=null   // delete &apos;magnetized&apos; attribute from them (one by one)&#xa;    // remove icon&#xa;    if (n.icons.contains(&apos;magneto&apos;)) {&#xa;       n.icons.remove(&apos;magneto&apos;)&#xa;    }&#xa;}  " ID="ID_1968680647" CREATED="1601224892931" MODIFIED="1601224892935"/>
+<node TEXT="// demagnetize any magnetized node in map&#xa;def magnetNodes = c.find{n -&gt; n[&apos;magnetized&apos;]?true:false }   // collect all magnetized nodes in map (nodes with &apos;magnetized&apos; attribute)&#xa;magnetNodes.each{n -&gt;&#xa;    n[&apos;magnetized&apos;]=null   // delete &apos;magnetized&apos; attribute from them (one by one)&#xa;    // remove icon&#xa;    if (n.icons.contains(&apos;magneto&apos;)) {&#xa;       n.icons.remove(&apos;magneto&apos;)&#xa;    }&#xa;}  " ID="ID_1543612214" CREATED="1601229262741" MODIFIED="1601229262744"/>
 </node>
 <node TEXT="magnetizeNode.groovy" FOLDED="true" ID="ID_93468434" CREATED="1601066525946" MODIFIED="1601212735345">
 <attribute_layout NAME_WIDTH="202.4999939650299 pt" VALUE_WIDTH="202.4999939650299 pt"/>
@@ -418,7 +418,7 @@
 <attribute NAME="execute_scripts_without_write_restriction" VALUE="false"/>
 <attribute NAME="execute_scripts_without_exec_restriction" VALUE="false"/>
 <attribute NAME="execute_scripts_without_network_restriction" VALUE="false"/>
-<node TEXT="def newMagnetoNode = node //selected node is the one to be magnetize&#xa;&#xa;// demagnetize other nodes&#xa;def magnetNodes = c.find{n -&gt; n[&apos;magnetized&apos;]?true:false }&#xa;magnetNodes.each{n -&gt; n[&apos;magnetized&apos;]=null}&#xa;&#xa;// magnetize current selected node&#xa;newMagnetoNode[&apos;magnetized&apos;]=true&#xa;&#xa;//add icon&#xa;if (!newMagnetoNode.icons.contains(&apos;magneto&apos;)) {&#xa;   newMagnetoNode.icons.add(&apos;magneto&apos;)&#xa;}" ID="ID_1913275209" CREATED="1601224892936" MODIFIED="1601224892937"/>
+<node TEXT="def newMagnetoNode = node //selected node is the one to be magnetize&#xa;&#xa;// demagnetize other nodes&#xa;def magnetNodes = c.find{n -&gt; n[&apos;magnetized&apos;]?true:false }&#xa;magnetNodes.each{n -&gt; n[&apos;magnetized&apos;]=null}&#xa;&#xa;// magnetize current selected node&#xa;newMagnetoNode[&apos;magnetized&apos;]=true&#xa;&#xa;//add icon&#xa;if (!newMagnetoNode.icons.contains(&apos;magneto&apos;)) {&#xa;   newMagnetoNode.icons.add(&apos;magneto&apos;)&#xa;}" ID="ID_398982352" CREATED="1601229262745" MODIFIED="1601229262746"/>
 </node>
 <node TEXT="moveToMagnet.groovy" FOLDED="true" ID="ID_258646175" CREATED="1601066525952" MODIFIED="1601212742067">
 <attribute_layout NAME_WIDTH="202.4999939650299 pt" VALUE_WIDTH="202.4999939650299 pt"/>
@@ -431,7 +431,7 @@
 <attribute NAME="execute_scripts_without_write_restriction" VALUE="false"/>
 <attribute NAME="execute_scripts_without_exec_restriction" VALUE="false"/>
 <attribute NAME="execute_scripts_without_network_restriction" VALUE="false"/>
-<node TEXT="def nodesToBeMoved = []     // creates an empy list to collect all the nodes to be moved&#xa;nodesToBeMoved += c.selecteds    // adds selected nodes to the list&#xa;&#xa;def magneto = c.find{n -&gt; n[&apos;magnetized&apos;]?true:false}   // finds magnetized node in map&#xa;&#xa;// if there is only one magnetized node --&gt; move nodes into it (one by one)&#xa;// else --&gt; message to user&#xa;if(magneto.size()==1){&#xa;    nodesToBeMoved.each{n -&gt; n.moveTo(magneto)}&#xa;} else {&#xa;    c.statusInfo =&quot;none or more then one magnetized node encountered&quot;&#xa;}" ID="ID_1883502977" CREATED="1601224892938" MODIFIED="1601224892939"/>
+<node TEXT="def nodesToBeMoved = []     // creates an empy list to collect all the nodes to be moved&#xa;nodesToBeMoved += c.selecteds    // adds selected nodes to the list&#xa;&#xa;def magneto = c.find{n -&gt; n[&apos;magnetized&apos;]?true:false}   // finds magnetized node in map&#xa;&#xa;// if there is only one magnetized node --&gt; move nodes into it (one by one)&#xa;// else --&gt; message to user&#xa;if(magneto.size()==1){&#xa;    nodesToBeMoved.each{n -&gt; n.moveTo(magneto)}&#xa;} else {&#xa;    c.statusInfo =&quot;none or more then one magnetized node encountered&quot;&#xa;}" ID="ID_138519018" CREATED="1601229262747" MODIFIED="1601229262748"/>
 </node>
 <node TEXT="selectMagnet.groovy" FOLDED="true" ID="ID_699024073" CREATED="1601066525954" MODIFIED="1601212749039">
 <attribute_layout NAME_WIDTH="202.4999939650299 pt" VALUE_WIDTH="202.4999939650299 pt"/>
@@ -444,7 +444,7 @@
 <attribute NAME="execute_scripts_without_write_restriction" VALUE="false"/>
 <attribute NAME="execute_scripts_without_exec_restriction" VALUE="false"/>
 <attribute NAME="execute_scripts_without_network_restriction" VALUE="false"/>
-<node TEXT="//finds all nodes that have the &apos;magnetized&apos; attribute and put them in a new list (&apos;magneto&apos;). Normally it should be only one magentized node (or none) in a map&#xa;def magneto = c.find{n -&gt; n[&apos;magnetized&apos;]?true:false}&#xa;&#xa;// if magneto list is not empty then ...&#xa;if (magneto) {&#xa;    // select all magnetized nodes&#xa;    c.select(magneto)&#xa;    // if it &apos;s only one node in the list (the desired scenario)&#xa;    if (magneto.size()==1) {&#xa;        //center map on it&#xa;        c.centerOnNode(magneto)&#xa;    } else {&#xa;        // if not:  message and center on the first node of the list&#xa;        c.statusInfo = &quot;There are multiple Magnetized nodes, please magnetize desired node again&quot;&#xa;        c.centerOnNode(magneto[0])&#xa;    }&#xa;}" ID="ID_1148563820" CREATED="1601224892940" MODIFIED="1601224892941"/>
+<node TEXT="//finds all nodes that have the &apos;magnetized&apos; attribute and put them in a new list (&apos;magneto&apos;). Normally it should be only one magentized node (or none) in a map&#xa;def magneto = c.find{n -&gt; n[&apos;magnetized&apos;]?true:false}&#xa;&#xa;// if magneto list is not empty then ...&#xa;if (magneto) {&#xa;    // select all magnetized nodes&#xa;    c.select(magneto)&#xa;    // if it &apos;s only one node in the list (the desired scenario)&#xa;    if (magneto.size()==1) {&#xa;        //center map on it&#xa;        c.centerOnNode(magneto)&#xa;    } else {&#xa;        // if not:  message and center on the first node of the list&#xa;        c.statusInfo = &quot;There are multiple Magnetized nodes, please magnetize desired node again&quot;&#xa;        c.centerOnNode(magneto[0])&#xa;    }&#xa;}" ID="ID_396023263" CREATED="1601229262748" MODIFIED="1601229262749"/>
 </node>
 <node TEXT="pullIncomingConnectors.groovy" FOLDED="true" ID="ID_72158300" CREATED="1601216754350" MODIFIED="1601216956657">
 <attribute_layout NAME_WIDTH="202.4999939650299 pt" VALUE_WIDTH="202.4999939650299 pt"/>
@@ -457,7 +457,7 @@
 <attribute NAME="execute_scripts_without_write_restriction" VALUE="false"/>
 <attribute NAME="execute_scripts_without_exec_restriction" VALUE="false"/>
 <attribute NAME="execute_scripts_without_network_restriction" VALUE="false"/>
-<node TEXT="def nTarget = node   // defines selected node as target&#xa;def inCons = nTarget.connectorsIn //collection of connectors pointing into the node&#xa;&#xa;// for each incoming connector ...&#xa;inCons.each{con -&gt;&#xa;   def nSource = con.source  // gets node the connector is comming out from&#xa;   nSource.removeConnector(con) // now we have the node, we can get rid of the connector&#xa;   nSource.moveTo(nTarget)  // move source node to target node&#xa;}" ID="ID_1105432171" CREATED="1601224892941" MODIFIED="1601224892944"/>
+<node TEXT="def nTarget = node   // defines selected node as target&#xa;def inCons = nTarget.connectorsIn //collection of connectors pointing into the node&#xa;&#xa;// for each incoming connector ...&#xa;inCons.each{con -&gt;&#xa;   def nSource = con.source  // gets node the connector is comming out from&#xa;   nSource.removeConnector(con) // now we have the node, we can get rid of the connector&#xa;   nSource.moveTo(nTarget)  // move source node to target node&#xa;}" ID="ID_522643999" CREATED="1601229262750" MODIFIED="1601229262751"/>
 </node>
 <node TEXT="pullIncomingLocalLinks.groovy" FOLDED="true" ID="ID_350292712" CREATED="1601216754353" MODIFIED="1601216963191">
 <attribute_layout NAME_WIDTH="202.4999939650299 pt" VALUE_WIDTH="202.4999939650299 pt"/>
@@ -470,10 +470,10 @@
 <attribute NAME="execute_scripts_without_write_restriction" VALUE="false"/>
 <attribute NAME="execute_scripts_without_exec_restriction" VALUE="false"/>
 <attribute NAME="execute_scripts_without_network_restriction" VALUE="false"/>
-<node TEXT="def nTarget = node      // defines selected node as target&#xa;def targetID = &apos;#&apos;+ node.id // it gets the nodes ID&#xa;&#xa;def nodesToMove = c.find{n -&gt; n.link.uri.toString() == targetID}  // finds all the nodes that are pointing to the target node with a local link&#xa;&#xa;// one by one&#xa;nodesToMove.each{n -&gt;&#xa;    n.moveTo(nTarget)    //moves node to target node&#xa;    n.link.remove()       //removes the local link from the moved node (don&apos;t needed anymore)&#xa;}" ID="ID_3330096" CREATED="1601224892945" MODIFIED="1601224892946"/>
+<node TEXT="def nTarget = node      // defines selected node as target&#xa;def targetID = &apos;#&apos;+ node.id // it gets the nodes ID&#xa;&#xa;def nodesToMove = c.find{n -&gt; n.link.uri.toString() == targetID}  // finds all the nodes that are pointing to the target node with a local link&#xa;&#xa;// one by one&#xa;nodesToMove.each{n -&gt;&#xa;    n.moveTo(nTarget)    //moves node to target node&#xa;    n.link.remove()       //removes the local link from the moved node (don&apos;t needed anymore)&#xa;}" ID="ID_1282627094" CREATED="1601229262752" MODIFIED="1601229262752"/>
 </node>
 </node>
-<node TEXT="lib" POSITION="right" ID="ID_127067947" CREATED="1601065851445" MODIFIED="1601218785436">
+<node TEXT="lib" POSITION="right" ID="ID_127067947" CREATED="1601065851445" MODIFIED="1601229248599">
 <edge COLOR="#7c007c"/>
 <richcontent TYPE="NOTE">
 
@@ -513,7 +513,7 @@
 </html>
 </richcontent>
 </node>
-<node TEXT="zips" POSITION="right" ID="ID_1129385199" CREATED="1601065851462" MODIFIED="1601218785447">
+<node TEXT="zips" POSITION="right" ID="ID_1129385199" CREATED="1601065851462" MODIFIED="1601229248609">
 <edge COLOR="#007c7c"/>
 <richcontent TYPE="NOTE">
 
@@ -553,12 +553,12 @@
 </html>
 </richcontent>
 <node TEXT="icons" FOLDED="true" ID="ID_1418869462" CREATED="1601122719421" MODIFIED="1601122724787">
-<node TEXT="UEsDBBQACAgIAGevOVEAAAAAAAAAAAAAAAARAAAAaWNvbnMvbWFnbmV0by5zdmflWNtu20gSfc&#xa;9XNJSXGCu2+n6RrQyQDSaYh8UCM5OdZ5qkZG4kUktSsZ2v39O8iJRsjScDZDbAEglEVlV3dVed&#xa;rjrtmx8edlvyOavqvCxWM07ZjGRFUqZ5sVnNPv76Y+RmpG7iIo23ZZGtZkU5++Htq5v68+YVIQ&#xa;SDi3qZJqvZXdPsl4vF/lBtaVltFmmyyLbZLiuaesEpX8xG82Q0T6osbvLPWVLudmVRtyOL+vXE&#xa;uErXR+v7+3t6L1sj7r1fMLEQIoJFVD8WTfwQnQ7FGp8bKhhjC+hGyz9mtXzY5sWni4tptVPviO&#xa;Ee/48DBgGty0OVZGuMzGiRNYv3v74/KiNG0yadTINJ6yTeZyd+B2EXr3iX1fs4yerFIG/HDx/L&#xa;aXbJG8WkjtX6Vvk5EUywiOmI8at2yLCKZVomYdrVbBdvsERFh0jk6WqGd9d+TCbmnSDP7t+VD6&#xa;sZI4woh3+t+C7LN3fNatZ/3udpc9d+vcXnTZqt6yDuJg9folVAhZBmcfWhitMcQOqMOrNTjbRO&#xa;zo7qYd9Jud1mCfzG2/v4se4nxbR1U+4H635LkEhr/WwUl+t1nWEwm8jq5nGbddYRZi+r5WvWPt&#xa;etqEQW8uZxya9nZPGiN8ef8ca/3hsbvd0sTuPSS9f5tsmqYeIhG6Orx9UsEtRp5bgzWSTEUdOn&#xa;ajR9aE2Vd0wKf2IaNtY5klaO4n4T7fqjvIB6X25x5ssi6qxxUn7+8O4rsrfOPsSHus7j4t32UJ&#xa;1G9lSHhaiTeKbvs89563w1k5Q5zpRQ2MU06hcXMAa5W/hXBFdRI6TTzr0cXEkds1poezm45nsJ&#xa;rvsugmupUNooL18OrqFMWGN+B7mKfSfBVeKbB/f56rrpvz8WeYPOeKiz6pfQXf5ZfKyzMfACsT&#xa;VUaq/ZJMaQKo3yoIXRoy1/1jZINXVeemNPcvGkto9TtU12eVdlIAWv/0wP6EJxswhtpn07trzQ&#xa;79LQwLo5MHybRQ8jgo5T3udFWt5Hu/gh3+VfsvSySUCnu6B7+B3dgHPL9QWLAd3SmHOLuoj30e&#xa;1t6MJNdRgydltWaVZt48esAtbi7TGVhy7N+4f+u74r7zdVi8iJ1XF2EINDIHVRVTY9HNm5TXKo&#xa;qmDSe2t/xMWJzhcwToPwWeqUYE7ZJ0psTzLKrLLuifJLWe5WM02fxGYfb7L6LkYEV7MnKwrKvq&#xa;diU5SdRO6o4GeKtjwAjKZ9elWYalCs22dwhrjexghrj8Nd1sRp3MSjdpDogQOB3i5/fv/jsYgk&#xa;yfK3svo0HvtgEN+WBwDmWGoCrUqWoJi7uHmbg8Rlgcv+DZQS0D8qToybx302TtpNW2UdV32W3q&#xa;fJLg+DFr80+Xb7U3AyoT39pHmzzd62PrvXYReLfhtDYZrs8mYxxKD92pylaRvfZtvVDP6KSVCf&#xa;B9mmKg/7XZlmvcEQ081ZjU/zeg8DkO1QU65HHlc3Vfkp647bEhTJCX0UYvc4UagBzVINsjQGvK&#xa;oKUxW4LV3vY/SNqMXJchdXn9AzCErwlnTmx3LVVHFRh6QEwt1U+cMbRoXXylgh53iVmjFnxBy3&#xa;A24hU8wHsRDawGquqUQVtUzNI2kpM4wre3VSUjfeqbEP7ePmbtJcjhUQgQoJxWlMuqeu6ySZdh&#xa;hMFQY7+wwrPvJRiuvQddjm8nU3TR+dCX2dRJUz9AClB2FIwL/LvFgidUX6DWJNSDhlRDoPpsWs&#xa;m2vNqdDkM+FSUOGkIAnhFFRNzRW4hWFKEqGpQLEVc4/dSWYlMYZyJbSbc66oNkxroqATTuu5kN&#xa;RIxg3xHF1PmYlk8DFnvbk38yhohXeinxRpNJZKxrgY3USjn3+RfslbEjlHLfcaaEDaBcEP+uCc&#xa;M7xoJcJW8MaNnStFufbSkUhg44p7wAZc0xvDSaQkVc4ZxAI+vMfNLeKhjTNAilHrLdYWjKz0Cq&#xa;vjOAnKSdvJtAZII4y0XjAfFtWuAvvynnrHjSFfJtGfYL3tsQHqRmknpbyaXpsqtO1nRx1PiG8f&#xa;rNph89ijMCFn4HjaainD+2DjEO85u7qMWd7jdb2eAPR5vEoqhZZqilfUmmX9n0NcZX8hisNZDD&#xa;HyZnrH6YkBEKWUZl5PVAOrEIJqYbWfEszAcxh4pVJuKg79DlNxIxX/M7nxfI67jwBX5V1yIg3u&#xa;in6uxEl67Hl6esfSOKbOlql8gCEXF3amjbwUEMuA+ucjGKmXscFYQMfXYuOboGAk9JsLHS1YR2&#xa;c7QO9+85Q067NOIa21l1rFUP8R4pcDdsnd9dna+oC2Gz+JJvvfnLHr7pLUrX/8i8bVaQf5B0El&#xa;94Cbtig5qF4cx438PVR1Y5gVoQhTLZ3jiqBKeue5nQtURgeRJ6Ec47TJOaqxxBvXBDVdSSa8DS&#xa;MFPBpFBEobl1y050hboZj15HhrQuHjWktcf0OdR0vhaAtcWIV2gZbitABbINy25dGjbgOeEMnT&#xa;gnyp/08P/EUYmG8PA6z6ewKCuXpCJQTlwnF0PDRGY7SzIR/ojE5LgwxTgy7FQBmoCq1fhbShSh&#xa;kwBpQyq62acxRZ7rzmGCYMylSbQaWBL+Sb4rhZGygA6hvUaM8tohiYRQRaoNCnwQtQXI2UTkIY&#xa;GjTuwxa9HYOcMLKlEOFmjsYNUzi0RkigAhca54UkgR8w37qhWinPOfFgBaGvhvkARzBP8JcASG&#xa;dQu7kXgNqLUIqTL0n8h7Dk/t+wpNgTLIlAD9HDkBcDKmaUbaGEwoCeHfi/UVJ4T1ACmHcmXAOU&#xa;A8kiFoBQUoFqUgCp5ayh1qBTIsNGcm9kgKRiwA8uDEyigBgSGKA01qOEeWRYStBFg5uElcGXVE&#xa;CwhQgJB1NtISkFvAaKJw1nXIe65MEOeEAabiSgkQEtyjBwBvBDoEWbIFMBQSh8kQlM2tq2ouGk&#xa;cAkZ1uxBC1qnAKhXvkM406bbNBgcqisALpkU0mHXxoWD83Ihi5P6S3LeMNufm3Alfvvqv1BLBw&#xa;g6eqC7sQgAAAIbAABQSwECFAAUAAgICABnrzlROnqgu7EIAAACGwAAEQAAAAAAAAAAAAAAAAAA&#xa;AAAAaWNvbnMvbWFnbmV0by5zdmdQSwUGAAAAAAEAAQA/AAAA8AgAAAAA" ID="ID_592741753" CREATED="1601072121735" MODIFIED="1601224892989">
+<node TEXT="UEsDBBQACAgIAKN2O1EAAAAAAAAAAAAAAAARAAAAaWNvbnMvbWFnbmV0by5zdmflWNlu49gRfe&#xa;+vINQvY4Sk7r7IVg/Q05hBHuZlMkmAvNEULTNNkQpJefv6nKLERYvTbqSTNBAZhsRbdZeqOlV1&#xa;Lm9+fNoUwUNWN3lVLmc8ZrMgK9NqlZfr5ezPv/8cuVnQtEm5SoqqzJazspr9+OHdTfOwfhcEAS&#xa;aXzWKVLmf3bbtdzOfbXV3EVb2er9J5VmSbrGybOY/5fDaqp6N6WmdJmz9kabXZVGXTzSyb9xPl&#xa;enU3aD8+PsaPslPi3vs5E3MhImhEzXPZJk/R8VSc8dJUwRibQzZqvk1r0cArW/wP6v1A3FS7Os&#xa;3uMC+Ly6ydf/r90yCMWLxqV5Nl8vJzkybb7GjXfnDvgWSTNdskzZp5P97Nf8xX7f1yplz3dJ/l&#xa;6/t2eHzIs8eP1dNyxgIWKBf0w2NoeTeQr5Yz2LWX9odcrKqUdl3ONskaFlRxb3p/gMUUI8EPik&#xa;mdqLtb5cNAMMEipiPGr2YfMOdmld01NHe/GT2JTgDRXV60Wb0XThZPq6LIUhiTFI/JczPrFZr2&#xa;ucChIK7qKC8xdVsVQExVRvuVEJXffvk46NN+e4G0UgzD8EokYuUdk8JnkRglB5fyYeC5U3VaOe&#xa;7MkWrvb36whazJfkl2TZMn5cdiN1j1BrvIstWn7CHvbFnOZMwcZ0oo7MgnWp09R5vALjUL5gd3&#xa;zvfG/g+ca46cK2PHrBbaftm5KjZCOu3c9+lc9x04V7Ej55qYCWvMW5BrY6G0UV5+l85V4o3OHX&#xa;zBrR2BNpytSG6zYjn7WOdFgcXT7Gu9fj11xE+k/GvS1vnT6fEnIpxETcx7SIpdhsbhYi8EN0HE&#xa;Y4MY6fEHCzhk1vJx6Ez5gs6Z8qjDuj/6vujGmzlV2u7XUNappq+oM4zl+DZpen9tk3XWuWo5e3&#xa;/XfQ6C26peZXUvMt3nSFShO+Xt854wvDuODq06yNlleXOfrKrH5UycCl+qakOzlFfeKqtP5SkS&#xa;QioZW49icybEhsLEznPHzakQHW5HdCTalXmLyG2fzqbv6poUiuQ5g93d19kBh2Xqqj2kQG9hc1&#xa;89rusOOUkxOPl0u70DD3tMFYctmjLZRre31MvbencmfsxL+C7q81+aM1MPGn3aW37mxoMGVRf3&#xa;igy+lOy1iZvkKd/kL9lqLECQFxmtyA/ovNlkbbJK2mTEXj+iezoA7rb47dPPQzam6eKvVf15zD&#xa;NSSG6rHcwYcpYYRroA29ok7YcchCUjovYHsCukwCA4Um6ft9m46H7ZOtvTtovcdZVucpo0/1OL&#xa;IvNH2mRIumHRvC2ycfBmfjh9n5oT427mvend0/rEq+u62m031So7oG42uuwyCg8VEOcqB1eiWv&#xa;fHqykzWQwK5OxRg2CxQJeWjo+1jBhjLK1DA7/QMpSNDUPC+dO+cy6g09IhPOOn9RhFqli8Z93n&#xa;mh6iQ4FY8OumravP2R7OC9Y/FnmZwdJF849dUmfT0b9XebmAv8rV9TZBiY+6fFpskvozyntAqw&#xa;d79bFKrqdnXHs3Wt/WSdkQYoj5Up3/Ac7gUoL+6RDeUl5IZlUIFs+d9RpzaVjCdudcqInMaCdc&#xa;GCkRc6uUs1en1q/yZoswgvjT+a9fMR2k0wk9DAJ+qBJIsnah+rFVgrpZ11iqxF3si+YPwNwm7f&#xa;2I/onJXc7CYmGUdlLKq0mHo3QNpPNgdszCUs2BneAh4FLEwkkRpGhMIHEqBBSEYUoGQscC9UiE&#xa;nsUebpOBMTFXQruQcxVrw7QOFGTCaR0KGRvJ0OE8j6VWZjLS7xGyg7o3YURS4Z04LIqYGBtLxr&#xa;gYt4nGff4SHI5cBJFzseWeAsoMEwG+APiQM/zQSpAp+MWNDZWKufbSBZGA4Yp7FWpwW28MWjTa&#xa;jnLOwBfYw3vcsSKu0akYI0xYb3E2UrLSK5yOI6LKSbsf01rIMMJMdC7m6VDdKWCX97FHvzLByx&#xa;HJ6qDTYwVO8P56n0Zp9zlgYsiqIywh951X+pW0+XYIO+ZLBDNn2dSKgYegtlE5RSPcHz9tmiZN&#xa;JyX1qH51tYoj4NxINWWV1F4YKCfyTEyG+2olRKyF1X4qO9QrLKaUZl6fHLqrWEa97np+cPvd3c&#xa;TPl90uY4niqr6qhv0ngnGpqPnuA/A65ACgLgylLq4W2mop6Xev45B2Ibt6PTavOIgxctHXOui/&#xa;gMtDiCN1GRWWIc1fAZM28ggbhD/lKcP5FGMHtErjmHpTHDxHw4gF7k18H4hI4x7FnFLiKBT2OB&#xa;Q38/VpRzvfA5QcNwgpu7khnpRAd8eGAuVLK4aSgxuFQWmX6uqoe6+ltfa0e41h3uRP0W2RlauI&#xa;qAoiAZ5VDNlxl5339u6x3hWkXL7g2nC9v64swLR+eD9e8a5e61WXCshL2qQvx43q10CCjlinjA&#xa;x9bAxqnwx+ChR1DDSmEE1BGYdrVaB0rLkBxCm6lhpLoHisnUPfCSV6vxBKYcyj3YMq7fUUWgya&#xa;HMeVg1u0sthzbODQHREntAaHPML9HGgRgcT9zVkEDlqKaRdgb+pRlhOHYKj+OKUK0DjQfqhPYD&#xa;luKS0CbhEWrrgKBfU1q9A7sJwFBNH/VIzayhWTl2z921vq19sidMjfLs/+DW72zZL5AmTo3d7V&#xa;heYDR6lp2foylpL0JU3OSI+MBfLD+pDL2GvkugZDAJa0N4QIBNYp6wKDcFkFWoF2a5S1igegDw&#xa;w5JmimsQzyAIDzTmpJ4QdXVBZKIODaaWIrWEt35AJNjQEulJymu90K0AvwGye47YoFAu6MIc5h&#xa;gFfPwI4wSSgs3b0/0EClZ5rjfNxLMLqgI6QM6IyIfwjwE6CR6JRixE9AsUDguSWEOs5Zx48ATy&#xa;j+KyryzfAE1vc9Icq8gijzdYhCcWpewGxOMCWI0KKbAFMIH7qR7SClcMUWlqBhlBTeAy0S5clS&#xa;KJzSCmqWeAvHCIqClUx5iqtBwFDWqEFxIBGtxHolORUJ5ammYWUUGo/CZJUzwoLgGm9ByWkv3G&#xa;4AGhpyZg8uzUACZMdJQZ59SO8cmQE1oPdRKIm46lD7MAx8jLAqBToMTWQORwP8gHKqjt0YODxI&#xa;L8EQHa3bUCvQUQ8ijIzxTBlYxwWR3gAbCc+7sorCrEGr/w+xp9gr2HOnnb/7uqHXHR/e/RNQSw&#xa;cIGiXAEiEJAAC7GwAAUEsBAhQAFAAICAgAo3Y7URolwBIhCQAAuxsAABEAAAAAAAAAAAAAAAAA&#xa;AAAAAGljb25zL21hZ25ldG8uc3ZnUEsFBgAAAAABAAEAPwAAAGAJAAAAAA==" ID="ID_592741753" CREATED="1601072121735" MODIFIED="1601229262762">
 <hook URI="file:/C:/Users/Edo/Pictures/magnet4.svg" SIZE="1.0" NAME="ExternalObject"/>
 </node>
 </node>
 </node>
-<node TEXT="images" POSITION="right" ID="ID_1272056783" CREATED="1601065851477" MODIFIED="1601218785474">
+<node TEXT="images" POSITION="right" ID="ID_1272056783" CREATED="1601065851477" MODIFIED="1601229248620">
 <edge COLOR="#7c7c00"/>
 <richcontent TYPE="NOTE">
 
