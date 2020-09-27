@@ -1,6 +1,6 @@
 <map version="freeplane 1.8.0">
 <!--To view this file, download free mind mapping software Freeplane from http://freeplane.sourceforge.net -->
-<node TEXT="Node Magnet" FOLDED="false" ID="ID_1094229561" CREATED="1601065780298" MODIFIED="1601218785278" LINK="http://foo.foo" BACKGROUND_COLOR="#97c7dc" STYLE="oval">
+<node TEXT="Node Magnet" FOLDED="false" ID="ID_1094229561" CREATED="1601065780298" MODIFIED="1601219688463" LINK="https://github.com/EdoFro/Freeplane_Node-Magnet" BACKGROUND_COLOR="#97c7dc" STYLE="oval">
 <font SIZE="16" BOLD="true" ITALIC="true"/>
 <hook NAME="MapStyle">
     <properties show_icon_for_attributes="true" fit_to_viewport="false" show_note_icons="true" edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff"/>
@@ -70,7 +70,7 @@
 <attribute NAME="author" VALUE="EdoFro"/>
 <attribute NAME="freeplaneVersionFrom" VALUE="v1.5.0"/>
 <attribute NAME="freeplaneVersionTo" VALUE=""/>
-<attribute NAME="updateUrl" VALUE=""/>
+<attribute NAME="updateUrl" VALUE="https://raw.githubusercontent.com/EdoFro/Freeplane_Node-Magnet/master/nodeMagnet/version.properties"/>
 <richcontent TYPE="NOTE">
 
 <html>
