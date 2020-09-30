@@ -19,9 +19,9 @@ more on Freeplane:
 
 ## Download and Install
 
-To install this AddOn you have to download the file "nodeMagnet-vX.X.X.addon.mm" from the [nodeMagnet folder](nodemagnet\) to your computer, open it with Freeplane and follow the displayed instructions.
+To install this AddOn you have to download the file "nodeMagnet-vX.X.X.addon.mm" from the [nodeMagnet folder](nodeMagnet/) to your computer, open it with Freeplane and follow the displayed instructions.
 
-[nodeMagnet AddOn](nodeMagnet\nodeMagnet-v0.0.1.addon.mm)
+to download the file you can download or clone the whole project or execute the following command from the command prompt in your computer (this works in Windows 10, but I think cURL is in other OS too):
 
 
 ---
