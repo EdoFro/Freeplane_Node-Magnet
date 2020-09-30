@@ -35,7 +35,9 @@ After installing the AddOn yu have to restart Freeplane to get the new commands 
 
 When clicking with the right button of the mouse on a node it displays a pop up menu. At the bottom of it the new commands will appear (look at the image).
 
-:::image type="content" source="nodeMagnet_menuPopUp.png" alt-text="right click on node":::
+:::image type="content" source="nodeMagnet_menuPopUp.png" alt-text="right click on node" lightbox="nodeMagnet_menuPopUp.png":::
+
+
 
 ---
 
