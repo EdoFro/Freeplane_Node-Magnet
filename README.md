@@ -31,9 +31,9 @@ and the file will download to the active directory.
 
 ## Node pop up menu
 
-After installing the AddOn yu have to restart Freeplane to get the new commands in the node menu.
+After installing the AddOn you have to restart Freeplane to get the new commands in the node menu.
 
-When clicking with the right button of the mouse on a node it displays a pop up menu. At the bottom of it the new commands will appear (look at the image).
+When clicking with the right button of the mouse on a node it displays a pop up menu. At the bottom of it, the new commands will appear (look at the image).
 
 ![nodeMagnet_menuPopUp](nodeMagnet_menuPopUp.png "right click on node")
 
@@ -45,7 +45,7 @@ When clicking with the right button of the mouse on a node it displays a pop up 
 
 ### magnetizeNode
 
-Magnetize a node is the way to mark it as the destination node where later all selected nodes are going to move to.
+Magnetize a node is the way to mark it as the destination node, where later all selected nodes are going to be moved to.
 
 ![magnetize Node](nodeMagnet_magnetizedNode.png  "it gets an icon and an attribute")
 
@@ -53,9 +53,9 @@ Magnetize a node is the way to mark it as the destination node where later all s
 
 ### moveToMagnet
 
-After selecting a node as magnet (destination), you can select the nodes you want them to move to the destination node.
+After selecting a node as magnet (destination), you can select the nodes you want to be moved to this destination node.
 
-You can do this in little groups if you like, the magnetized node stays as destination till you demagnetize the map.
+You can do this in little batchs if you like, the magnetized node stays as destination till you demagnetize the map.
 
 ![move to magnet](nodeMagnet_moveToMagnet.png "all selected nodes move to the magnetized node")
 
@@ -63,7 +63,7 @@ You can do this in little groups if you like, the magnetized node stays as desti
 
 ### selectMagnet
 
-You can use this command if you want to jump directly to the magnetized node. This can be useful when in a big mindmap you have been sending nodes to it and now you want to return to the magnet and continue your work there.
+You can use this command if you want to jump directly to the magnetized node. This can be useful when working in a big mindmap you have been sending nodes to it and now you want to return to the magnet and continue your work there.
 
 ---
 
@@ -75,11 +75,11 @@ Use this command to unmark any magnetized node in the map.
 
 ## Other commands
 
-This commands are not directly related with the previous ones, but they are very similar in their porpouse.
+This commands are not directly related with the previous ones, but they are very similar in their purpose.
 
 ### pullIncomingConnectors
 
-This command take all nodes that are connected to the selected node with incomming connectors and move them to it. Look at the image for better understanding:
+This command take all nodes that are connected to the selected node through incomming connectors and move them to it. Look at the image for better understanding:
 
 ![pull Incoming Connectors](nodeMagnet_pullInConnectors.png "move nodes from incoming Connectors")
 
@@ -92,11 +92,11 @@ This command is like the previous one, but it moves all nodes that are pointing 
 
 You can use this Freeplane options to set this links:
 
-set anchor node:
+* set anchor node:
 
 ![](nodeMagnet_setLinkAnchor.png)
 
-set links to anchor node:
+* set links to anchor node:
 
 ![](nodeMagnet_setLinkToAnchor.png)
 
@@ -106,4 +106,4 @@ set links to anchor node:
 
 The scripts in this AddOn are very simple ones and I have added comments so they are easy to understand and learn from.
 
-I'm learning also, so if you see something that can improved, please let me know.
+I'm learning also, so if you see something that can be improved, please let me know.
