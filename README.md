@@ -86,6 +86,7 @@ This command take all nodes that are connected to the selected node through inco
 ---
 
 ### pullIncomingLocalLinks
+
 This command is like the previous one, but it moves all nodes that are pointing with local links to the selected node to it. Look at the image for better understanding:
 
 ![pull Incoming Local Links](nodeMagnet_pullLocalLinks.png "move nodes with pointing local links")
