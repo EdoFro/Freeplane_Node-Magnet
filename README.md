@@ -23,7 +23,7 @@ To install this AddOn you have to download the file "nodeMagnet-vX.X.X.addon.mm"
 
 to download the file you can download or clone the whole project, or execute the following command from the command prompt in your computer (this works in Windows 10, but I think cURL is in other OS too):
 
-`curl -O https://raw.githubusercontent.com/EdoFro/Freeplane_Node-Magnet/master/nodeMagnet/nodeMagnet-v0.0.1.addon.mm`
+`curl -O https://raw.githubusercontent.com/EdoFro/Freeplane_Node-Magnet/master/nodeMagnet/nodeMagnet-v0.0.2.addon.mm`
 
 and the file will download to the active directory.
 
