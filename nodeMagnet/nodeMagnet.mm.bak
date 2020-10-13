@@ -1,9 +1,9 @@
 <map version="freeplane 1.8.0">
 <!--To view this file, download free mind mapping software Freeplane from http://freeplane.sourceforge.net -->
-<node TEXT="Node Magnet" FOLDED="false" ID="ID_1094229561" CREATED="1601065780298" MODIFIED="1601219688463" LINK="https://github.com/EdoFro/Freeplane_Node-Magnet" BACKGROUND_COLOR="#97c7dc" STYLE="oval">
+<node TEXT="Node Magnet" FOLDED="false" ID="ID_1094229561" CREATED="1601065780298" MODIFIED="1601229248485" LINK="https://github.com/EdoFro/Freeplane_Node-Magnet" BACKGROUND_COLOR="#97c7dc" STYLE="oval">
 <font SIZE="16" BOLD="true" ITALIC="true"/>
 <hook NAME="MapStyle">
-    <properties show_icon_for_attributes="true" fit_to_viewport="false" show_note_icons="true" edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff"/>
+    <properties fit_to_viewport="false" show_icon_for_attributes="true" show_note_icons="true" edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff"/>
 
 <map_styles>
 <stylenode LOCALIZED_TEXT="styles.root_node" STYLE="oval" UNIFORM_SHAPE="true" VGAP_QUANTITY="24.0 pt">
@@ -108,7 +108,7 @@
 </html>
 
 </richcontent>
-<node TEXT="description" POSITION="left" ID="ID_193967642" CREATED="1601065851195" MODIFIED="1601218785296">
+<node TEXT="description" POSITION="left" ID="ID_193967642" CREATED="1601065851195" MODIFIED="1601229248507">
 <edge COLOR="#ff0000"/>
 <richcontent TYPE="NOTE">
 
@@ -132,7 +132,7 @@
 </richcontent>
 <node TEXT="this addon helps to choose a node and mark it as destiny node and move all selected nodes to it at once" ID="ID_187383201" CREATED="1601123249048" MODIFIED="1601123511224"/>
 </node>
-<node TEXT="changes" POSITION="left" ID="ID_423818786" CREATED="1601065851214" MODIFIED="1601218785306">
+<node TEXT="changes" POSITION="left" ID="ID_423818786" CREATED="1601065851214" MODIFIED="1601229248518">
 <edge COLOR="#0000ff"/>
 <richcontent TYPE="NOTE">
 
@@ -149,7 +149,7 @@
 
 </richcontent>
 </node>
-<node TEXT="license" POSITION="left" ID="ID_588714775" CREATED="1601065851229" MODIFIED="1601218785318">
+<node TEXT="license" POSITION="left" ID="ID_588714775" CREATED="1601065851229" MODIFIED="1601229248529">
 <edge COLOR="#00ff00"/>
 <richcontent TYPE="NOTE">
 
@@ -173,7 +173,7 @@
 </richcontent>
 <node TEXT="&#xa;This add-on is free software: you can redistribute it and/or modify&#xa;it under the terms of the GNU General Public License as published by&#xa;the Free Software Foundation, either version 2 of the License, or&#xa;(at your option) any later version.&#xa;&#xa;This program is distributed in the hope that it will be useful,&#xa;but WITHOUT ANY WARRANTY; without even the implied warranty of&#xa;MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the&#xa;GNU General Public License for more details.&#xa;" ID="ID_350487012" CREATED="1601065851245" MODIFIED="1601065851246"/>
 </node>
-<node TEXT="preferences.xml" POSITION="left" ID="ID_6162240" CREATED="1601065851264" MODIFIED="1601218785329">
+<node TEXT="preferences.xml" POSITION="left" ID="ID_6162240" CREATED="1601065851264" MODIFIED="1601229248540">
 <edge COLOR="#ff00ff"/>
 <richcontent TYPE="NOTE">
 
@@ -193,7 +193,7 @@
 
 </richcontent>
 </node>
-<node TEXT="default.properties" POSITION="left" ID="ID_840785349" CREATED="1601065851278" MODIFIED="1601218785339">
+<node TEXT="default.properties" POSITION="left" ID="ID_840785349" CREATED="1601065851278" MODIFIED="1601229248550">
 <edge COLOR="#00ffff"/>
 <richcontent TYPE="NOTE">
 
@@ -218,7 +218,7 @@
 
 </richcontent>
 </node>
-<node TEXT="translations" POSITION="left" ID="ID_493847199" CREATED="1601065851295" MODIFIED="1601218785350">
+<node TEXT="translations" POSITION="left" ID="ID_493847199" CREATED="1601065851295" MODIFIED="1601229248560">
 <edge COLOR="#7c0000"/>
 <richcontent TYPE="NOTE">
 
@@ -256,7 +256,7 @@
 <attribute NAME="addons.${name}.pullIncomingLocalLinks" VALUE="pull nodes linked to selected node"/>
 </node>
 </node>
-<node TEXT="deinstall" POSITION="left" ID="ID_729275475" CREATED="1601065851371" MODIFIED="1601218785362">
+<node TEXT="deinstall" POSITION="left" ID="ID_729275475" CREATED="1601065851371" MODIFIED="1601229248570">
 <edge COLOR="#00007c"/>
 <richcontent TYPE="NOTE">
 
@@ -282,7 +282,7 @@
 <attribute NAME="delete" VALUE="${installationbase}/addons/${name}/scripts/pullIncomingLocalLinks.groovy"/>
 <attribute NAME="delete" VALUE="${installationbase}/icons/magneto.svg"/>
 </node>
-<node TEXT="scripts" POSITION="right" ID="ID_272249495" CREATED="1601065851400" MODIFIED="1601218785378">
+<node TEXT="scripts" POSITION="right" ID="ID_272249495" CREATED="1601065851400" MODIFIED="1601229248583">
 <edge COLOR="#007c00"/>
 <richcontent TYPE="NOTE">
 
@@ -476,7 +476,7 @@
 <attribute NAME="execute_scripts_without_network_restriction" VALUE="false"/>
 </node>
 </node>
-<node TEXT="lib" POSITION="right" ID="ID_127067947" CREATED="1601065851445" MODIFIED="1601218785436">
+<node TEXT="lib" POSITION="right" ID="ID_127067947" CREATED="1601065851445" MODIFIED="1601229248599">
 <edge COLOR="#7c007c"/>
 <richcontent TYPE="NOTE">
 
@@ -517,7 +517,7 @@
 
 </richcontent>
 </node>
-<node TEXT="zips" POSITION="right" ID="ID_1129385199" CREATED="1601065851462" MODIFIED="1601218785447">
+<node TEXT="zips" POSITION="right" ID="ID_1129385199" CREATED="1601065851462" MODIFIED="1601229248609">
 <edge COLOR="#007c7c"/>
 <richcontent TYPE="NOTE">
 
@@ -563,7 +563,7 @@
 </node>
 </node>
 </node>
-<node TEXT="images" POSITION="right" ID="ID_1272056783" CREATED="1601065851477" MODIFIED="1601218785474">
+<node TEXT="images" POSITION="right" ID="ID_1272056783" CREATED="1601065851477" MODIFIED="1601229248620">
 <edge COLOR="#7c7c00"/>
 <richcontent TYPE="NOTE">
 
